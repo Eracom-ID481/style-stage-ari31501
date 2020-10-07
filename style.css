@@ -6,222 +6,213 @@
 *,
 *::before,
 *::after {
- box-sizing: border-box;
+  box-sizing: border-box;
 }
 /* Remove default margin */
 body {
- background: linear-gradient(-45deg, #ee7752, #e73c7e, #6c5ce7, #55efc4);
- background-size: 400% 400%;
- animation: gradient 15s ease infinite;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #6c5ce7, #55efc4);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
 }
- 
+
 @keyframes gradient {
- 0% {
-   background-position: 0% 50%;
- }
- 50% {
-   background-position: 100% 50%;
- }
- 100% {
-   background-position: 0% 50%;
- }
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
- span{
-
-font-size: 2vh;
-
- }
+span {
+  font-size: 2vh;
+}
 p {
- margin-left: 25vh;
- margin-right: 20vh;
- color: honeydew;
- font-size: 3vh;
- text-decoration: none;
+  margin-left: 25vh;
+  margin-right: 35vh;
+  color: honeydew;
+  font-size: 3vh;
+  text-decoration: none;
 }
 a {
- color: honeydew;
- font-size: 3vh;
- text-decoration: underline dotted honeydew;
+  color: honeydew;
+  font-size: 3vh;
+  text-decoration: underline dotted honeydew;
 }
-a:hover{
-    color: rgb(0, 51, 85) ;
-    font-size: 3vh;
-    text-decoration-line: none;
-    background-color: honeydew;
-    border: none;
-    border-radius: 10px;
-    margin: 2px 2px;
-    transition: 0.3s;
-    padding: 16px 32px;
-   }
+
+a:not(.link-github):hover {
+  color: rgb(0, 51, 85);
+  font-size: 3vh;
+  text-decoration-line: none;
+  background-color: honeydew;
+  border: none;
+  border-radius: 10px;
+  margin: 2px 2px;
+  transition: 0.3s;
+  padding: 16px 32px;
+}
+
 li {
- list-style-type: none;
- background-position: 0.32em;
- padding-left: 20vh;
- color: honeydew;
- text-decoration: none;
- margin-left: -1vh;
+  font-size: 3.2vh;
+  list-style-type: none;
+  background-position: 0.32em;
+  padding-left: 23vh;
+  margin-right: 250px;
+  color: honeydew;
+  text-decoration: none;
+  margin-left: -1vh;
 }
- 
+
 h1 {
- font-size: 2em;
- color: honeydew;
- display: inline-block;
- font-family: "Archivo Black";
- padding: 10px 20px;
- transform: rotate(-5deg);
- place-items: center;
- display: grid;
- height: 90vh;
- width: 100%;
+  font-size: 2em;
+  color: honeydew;
+  display: inline-block;
+  font-family: "Archivo Black";
+  padding: 10px 20px;
+  transform: rotate(-5deg);
+  place-items: center;
+  display: grid;
+  height: 90vh;
+  width: 100%;
 }
 svg {
- margin-left: 70%;
- margin-bottom: -7px;
- width: 2rem;
- fill: honeydew;
+  margin-left: 70%;
+  margin-bottom: -7px;
+  width: 2rem;
+  fill: honeydew;
 }
 path {
- height: 22px;
- fill: var(--darkpink);
- vertical-align: bottom;
+  height: 22px;
+  fill: var(--darkpink);
+  vertical-align: bottom;
 }
- 
+
 header .container h1 {
- -webkit-mask-size: contain;
- -webkit-mask-image: url("http://www.textures4photoshop.com/tex/thumbs/crack-grunge-texture-PNG-thumb24.png");
+  -webkit-mask-size: contain;
+  -webkit-mask-image: url("http://www.textures4photoshop.com/tex/thumbs/crack-grunge-texture-PNG-thumb24.png");
 }
- 
+
 header .container p a {
- color: honeydew;
- font-size: 2vh;
- margin-bottom: 10rem;
- text-decoration: none;
+  color: honeydew;
+  font-size: 2vh;
+  margin-bottom: 10rem;
+  text-decoration: none;
 }
- 
+
 h2 {
- display: grid;
- margin-left: 25vh;
- margin-right: 75vh;
- font-size: 50px;
- color: honeydew;
- line-height: 0.8;
+  display: grid;
+  margin-left: 25vh;
+  margin-right: 75vh;
+  font-size: 50px;
+  color: honeydew;
+  line-height: 0.8;
 }
- 
+
 h3 {
- display: grid;
- height: 20vh;
- margin-left: 25vh;
- margin-right: 75vh;
- font-size: 50px;
- color: honeydew;
- line-height: 0.8;
+  display: grid;
+  margin-left: 25vh;
+  margin-right: 75vh;
+  font-size: 50px;
+  color: honeydew;
+  line-height: 0.8;
 }
 h4 {
- display: grid;
- height: 20vh;
- margin-left: 25vh;
- margin-right: 75vh;
- font-size: 50px;
- color: honeydew;
- line-height: 0.8;
+  display: grid;
+  height: 20vh;
+  margin-left: 25vh;
+  margin-right: 75vh;
+  font-size: 50px;
+  color: honeydew;
+  line-height: 0.8;
 }
 h5,
 h6 html {
- overflow-x: hidden;
+  overflow-x: hidden;
 }
 /* Set core body defaults */
 body {
- min-height: 100vh;
- font-size: 100%;
- line-height: 1.5;
- text-rendering: optimizeSpeed;
- overflow-x: hidden;
- font-size: 50px;
+  min-height: 100vh;
+  font-size: 100%;
+  line-height: 1.1;
+  text-rendering: optimizeSpeed;
+  overflow-x: hidden;
+  font-size: 50px;
 }
- 
+
 .my-element {
- display: inline-block;
- margin: 0 0.5rem;
- 
- animation: bounce; /* referring directly to the animation's @keyframe declaration */
- animation-duration: 2s; /* don't forget to set a duration! */
+  display: inline-block;
+  margin: 0 0.5rem;
+
+  animation: bounce; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
 }
- 
+
 /* Make images easier to work with */
 img {
- display: block;
- max-width: 100%;
+  display: block;
+  max-width: 100%;
 }
- 
+
 /* Inherit fonts for inputs and buttons */
 input,
 button,
 textarea,
 select {
- font-family: "Archivo Black", sans-serif;
+  font-family: "Archivo Black", sans-serif;
 }
- 
+
 /* Remove all animations and transitions for people that prefer not to see them */
 @media (prefers-reduced-motion: reduce) {
- * {
-   animation-duration: 0.01ms !important;
-   animation-iteration-count: 1 !important;
-   transition-duration: 0.01ms !important;
-   scroll-behavior: auto !important;
- }
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }
- 
+
 nav ul
 /* Fin du CSS Reset */ {
- margin-bottom: 150px;
- margin-left: -35px;
+  margin-bottom: 150px;
+  margin-left: -35px;
 }
- 
+
 #main #about .container ul {
- display: flex;
- flex-wrap: wrap;
- margin: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 100px;
 }
- 
+
 #main #about .container ul li {
- border: solid 10px honeydew;
- border-width: 12px;
- padding: 3px;
- margin-bottom: -12px;
- 
+  border: solid 10px honeydew;
+  border-width: 12px;
+  padding: 3px;
+  margin-bottom: -12px;
+  margin-right: 0px;
 }
 
 #main #about .container ul li:hover {
-    background-color: honeydew;
-    color:black;
+  background-color: honeydew;
+  color: black;
 }
 
 nav ul li a {
-    margin: 10vh;
-    margin-bottom: -50px;
-
+  margin: 10vh;
+  margin-bottom: -50px;
 }
 #main div article a.link-guidelines {
-    margin-left: 205px;
+  margin-left: 205px;
 }
 
 #main div article .container blockquote p {
-    margin-block: 20px;
-    margin-left:  190px;
+  margin-left: 190px;
 }
 
-body .container a.link-github {
-    margin-left: -1000px;
-}
-
-#main .container #contribute .container{
-    margin-left: 250px;
-}
-.profile .container a {
-    margin-left: 250px;
+#main .container #contribute .container {
+  margin-left: 250px;
 }
 body #styles .container .features a.link-allstyle {
-    margin-left: 250px;
+  margin-left: 250px;
 }
-
